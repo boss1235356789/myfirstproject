@@ -1,0 +1,120 @@
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: Border-box; 
+}
+
+body{
+    background-image: url("");
+    height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+
+}
+
+a{
+    Text-decoration: none;
+    Color: Black;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: auto;
+    border: 2px white;
+
+}
+
+header{
+    background-color: lightgray;
+}
+
+header nav h1{
+    float: left;
+    padding: 10px;
+}
+
+header nav ul{
+    float: right;
+
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a {
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+header nav ul li a:hover{
+    color: aqua;
+    background-color: green;
+}
+
+h1.intro {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    margin: 40px;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+    background-color: blue;
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+form label{
+    display: block;
+    color: #999;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+     form input[type="text"],  
+     form input[type="email"],
+     form input[type="password"]{
+          width:100%;
+          padding: 12px;
+          margin-bottom: 15px;
+          border:none;
+          border-radius: 5px;
+          font-size: 16px;
+
+     }
+
+     form input[type="submit"]{
+        display: block;
+        margin: 15px auto;
+        width: 50;
+        padding: 10px 12px;
+        border: none;
+        border-radius: 8px;
+        color: #999;
+        text-align: center;
+        font-size: 16px;
+     }   
+form input[type="submit"]:hover {
+    background-color: #999;
+    color: blue;
+    font-weight: bold;
+}
+         
+
+               
+
+
+
+
+
